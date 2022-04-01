@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!--Шапка страницы-->
@@ -12,12 +18,12 @@
     <header>
         <nav>
     <a href="/">
-        <span style= color:#2196F3;>Web</span><span style="color:black;">Studio</span>  
+        <span class="logo-accent">Web</span><span class="logo-dark">Studio</span>  
     </a>
-<ul>
-    <li><a href="">Студия</a></li>
-    <li><a href="./portfolio.html">Портфолио</a></li>
-    <li><a href="">Контакты</a></li>
+    <ul class="menu-list">
+        <li><a class="menu-link" href="">Студия</a></li>
+        <li><a class="menu-link" href="./portfolio.html">Портфолио</a></li>
+        <li><a class="menu-link" href="">Контакты</a></li>
 </ul>
 </nav>
 <ul>
@@ -32,26 +38,26 @@
         <h1>Навигация по странице</h1>
        <ul>
            <li>
-            <a href="" class="link">Все</a>
+           <button type="button" class="nav-button">Все</button>
            </li>
            <li>
-            <a href="" class="link">Веб-сайты</a>
+            <button type="button" class="nav-button">Веб-сайты</button>
            </li>
            <li>
-            <a href="" class="link">Приложения</a>
+            <button type="button" class="nav-button">Приложения</button>
            </li>
            <li>
-            <a href="" class="link">Дизайн</a>
+            <button type="button" class="nav-button">Дизайн</button>
            </li>
            <li>
-            <a href="" class="link">Маркетинг</a>
+            <button type="button" class="nav-button">Маркетинг</button>
            </li>
        </ul>
        </section>
 
     <!-- Примеры работ -->
-       <section>
-           <h2> Примеры работ </h2>
+    <section>
+        <h2> Примеры работ </h2>
         <ul>
             <li>
                 <img src="./Image/tekhnokryak.jpg" alt="Laptop" width="370">
@@ -111,9 +117,9 @@
     </section>
 </main> 
 <!--Футер с контактами-->
-<footer> 
+<footer class="footer-color"> 
     <a href="/">
-        <span style= color:#2196F3;>Web</span><span style="color:black;">Studio</span>  
+        <span class="logo-accent">Web</span><span class="logo-white">Studio</span>  
     </a>  
     <address>
         <ul>
