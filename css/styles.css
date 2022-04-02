@@ -209,6 +209,7 @@ a {
     line-height: 1.9; 
 }
 
-.navigation-section {
+.navigation-section,
+.projects-section {
     background-color: var(--background-color-white);
 }
