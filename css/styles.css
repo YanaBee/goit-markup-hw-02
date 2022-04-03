@@ -7,6 +7,7 @@ body {
 }
 
 /* Logo */
+
 .logo-accent {
     font-family: var(--logo-font);
     color: var(--logo-accent);
