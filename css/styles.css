@@ -56,10 +56,6 @@ ul {
     list-style: none;
 }
 
-.header-section {
-    background-color: #FFFFFF;
-}
-
 /* Hero */
 .title {
     font-family: var(--title-font);
